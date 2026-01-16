@@ -1,0 +1,40 @@
+
+<html >
+    <head>
+        <title>Action RPG Assignment</title>
+
+        <link rel = "stylesheet" href = "style.css">
+
+    </head>
+    <body>
+        <h1>Action RPG Assignment</h1>
+        <canvas id="gameCanvas" width="600" height="400"></canvas>
+
+        <div class="scores">
+            <div>Zombie score: <span id="score-zombie">0</span></div>
+            <div>Bush score: <span id="score-bush">0</span></div>
+        </div>
+
+        <!-- Play again / reset button (hidden until someone wins) -->
+        <div class="controls">
+            <button id="resetBtn" style="display:none">Play Again</button>
+        </div>
+
+        <img id = "zombie_back" src = "sprites/zombie_back.png" hidden>
+        <img id = "zombie_front" src = "sprites/zombie_front.png" hidden>
+        <img id = "zombie_right" src = "sprites/zombie_right.png" hidden>
+        <img id = "zombie_left" src = "sprites/zombie_left.png" hidden>
+    
+        <img id = "bush_back" src = "sprites/bush_back.png" hidden>
+        <img id = "bush_front" src = "sprites/bush_front.png" hidden>
+        <img id = "bush_right" src = "sprites/bush_right.png" hidden>
+        <img id = "bush_left" src = "sprites/bush_left.png" hidden>
+
+        <img id = "background" src = "sprites/background.jpg" hidden>
+
+
+        <img id = "coin" src = "sprites/coin.png" hidden>
+
+        <script src="code.js"></script>
+    </body>
+</html>
